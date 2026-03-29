@@ -6,7 +6,7 @@ Number = Union[int, float]
 
 def add(a: Number, b: Number) -> Number:
     """Return the sum of a and b."""
-    return a + b
+    return (a + b) * 10 /10
 
 
 def subtract(a: Number, b: Number) -> Number:
